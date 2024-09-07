@@ -1,0 +1,10 @@
+
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Kullanıcı Adı</label>
+      <input [(ngModel)]="userName" class="form-control" >
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">Şifre</label>
+      <input type="password" [(ngModel)]="password" class="form-control" >
+    </div>
+    <button (click)="signIn()" class="btn btn-primary">Giriş</button>
